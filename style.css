@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #00507C;
+}
+
+#container {
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 50px;
+}
+
+.login {
+    position: absolute;
+    background-color: #CEDDE6;
+    width: 700px;
+    padding-left: 110px;
+    padding-top: 30px;
+    border-radius: 32px 0px 0px 32px;
+}
+
+.login h1 {
+    margin-left: 150px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: #00507C;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    width: 450px;
+    height: 42px;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    border-radius: 48px;
+    border: none;
+    padding-left: 35px;
+}
+
+::placeholder{
+    color: #00507C;
+}
+
+.icons {
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 15px;
+    height: 14px;
+}
+
+#radiotxt {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#radiotxt p{
+    margin-left: 80px;
+    margin-top: -25px;
+    color: #00507C;
+    font-size: 13px;
+}
+
+span {
+    color: #000000;
+    font-weight: 900;
+}
+
+#radio {
+    width: 15px;
+    height: 15px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+
+button {
+    margin-left: 150px;
+    background: #00507C;
+    border-radius: 48px;
+    border: none;
+    color: #FFFFFF;
+    padding: 13px;
+    margin-bottom: 30px;
+    transition: background-color 1s ease;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: #00507C;
+}
+
+button:active {
+    background: #00507C;
+    color: #FFFFFF;
+}
+
+#sing-in {
+    margin-left: 140px;
+    margin-top: -5px;
+    color: #00507C;
+    font-size: 13px;
+    padding-bottom: 50px;
+}
+.img {
+    position: absolute;
+    float: right;
+    margin-top: -0px;
+    margin-left: 700px;
+}
+
+h2 {
+    position: absolute;
+    color: #FFFFFF;
+    font-size: 23px;
+    margin-top: 70px;
+    margin-left: 45px;
+}
+
+#mulher {
+    height: 430px;
+}
+
+@media (max-width: 768px) and (min-width: 426px) {
+    .img {
+        display: none;
+    }
+
+    body {
+        overflow: hidden;
+    }
+    
+    #container {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .login {
+        border-radius: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    input {
+        width: 600px;
+        height: 62px;
+        margin-left: -50px;
+        margin-right: -10px;
+    }
+
+    .icons {
+        margin-top: 14px;
+        margin-left: -25px;
+        margin-right: 0;
+        height: 25px;
+    }
+
+    ::placeholder{
+        font-size: 25px;
+        padding-left: 25px;
+    }
+    
+    .login h1 {
+        margin-left: 100px;
+        margin-right: 0;
+        margin-top: 160px;
+        font-size: 70px;
+    }
+
+    #radiotxt p{
+        position: absolute;
+        margin-left: 15px;
+        font-size: 23px;
+        margin-right: 0;
+        margin-top: 20px;
+    }
+
+    #radio {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        margin-left: -35px;
+        margin-right: 0;
+        margin-top: 15px;
+    }
+
+    button {
+        margin-left: 135px;
+        margin-right: 0;
+        margin-top: 75px;
+        height: 80px;
+        width: 250px;
+        font-size: 23px;
+    }
+
+    #sing-in {
+        margin-left: 95px;
+        margin-right: 0;
+        font-size: 23px;
+    }
+
+}
+
+@media (max-width: 425px) {
+    .img {
+        display: none;
+    }
+
+    body {
+        overflow: hidden;
+    }
+    
+    #container {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .login {
+        border-radius: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    input {
+        width: 300px;
+        height: 42px;
+        margin-left: -50px;
+        margin-right: -10px;
+    }
+
+    .icons {
+        margin-top: 14px;
+        margin-left: -35px;
+        margin-right: 0;
+        height: 14px;
+    }
+    
+    .login h1 {
+        margin-left: 15px;
+        margin-right: 0;
+        margin-top: 60px;
+    }
+
+    #radiotxt p{
+        margin-left: -15px;
+        font-size: 11px;
+        margin-right: 0;
+    }
+
+    #radio {
+        width: 15px;
+        height: 15px;
+        margin-left: -35px;
+        margin-right: 0;
+    }
+
+    button {
+        margin-left: 15px;
+        margin-right: 0;
+    }
+
+    #sing-in {
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .img {
+        display: none;
+    }
+
+    body {
+        overflow: hidden;
+    }
+    
+    #container {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .login {
+        border-radius: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    input {
+        width: 300px;
+        height: 42px;
+        margin-left: -70px;
+        margin-right: -10px;
+    }
+
+    .icons {
+        margin-top: 14px;
+        margin-left: -55px;
+        margin-right: 0;
+        height: 14px;
+    }
+    
+    .login h1 {
+        margin-left: -5px;
+        margin-right: 0;
+        margin-top: 60px;
+    }
+
+    #radiotxt p{
+        margin-left: -35px;
+        font-size: 11px;
+        margin-right: 0;
+    }
+
+    #radio {
+        width: 15px;
+        height: 15px;
+        margin-left: -55px;
+        margin-right: 0;
+    }
+
+    button {
+        margin-left: -0px;
+        margin-right: 0;
+    }
+
+    #sing-in {
+        margin-left: -10px;
+        margin-right: 0;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .img {
+        display: none;
+    }
+
+    body {
+        overflow: hidden;
+    }
+    
+    #container {
+        position: absolute;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .login {
+        border-radius: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+
+    input {
+        width: 250px;
+        height: 42px;
+        margin-left: -75px;
+        margin-right: -10px;
+    }
+
+    .icons {
+        margin-top: 14px;
+        margin-left: -60px;
+        margin-right: 0;
+        height: 14px;
+    }
+    
+    .login h1 {
+        margin-left: -30px;
+        margin-right: 0;
+        margin-top: 60px;
+    }
+
+    #radiotxt p{
+        margin-left: -55px;
+        font-size: 10px;
+        margin-right: 0;
+    }
+
+    #radio {
+        width: 15px;
+        height: 15px;
+        margin-left: -75px;
+        margin-right: 0;
+    }
+
+    button {
+        margin-left: -20px;
+        margin-right: 0;
+    }
+
+    #sing-in {
+        margin-left: -40px;
+        margin-right: 0;
+    }
+
+}
